@@ -1,0 +1,10 @@
+for server:
+cd "c:\Users\AYUSH\Documents\java project\MultiplayerQuizSystem\src"
+javac server/*.java client/*.java model/*.java
+java -cp ".;../lib/mysql-connector-j-9.6.0.jar" server.QuizServer  
+
+in another terminal
+for client:
+cd "c:\Users\AYUSH\Documents\java project\MultiplayerQuizSystem\src"
+javac server/*.java client/*.java model/*.java
+java client.LoginUI
