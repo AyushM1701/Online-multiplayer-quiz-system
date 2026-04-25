@@ -55,9 +55,8 @@ MultiplayerQuizSystem/
 │   ├── server-manifest.txt
 │   └── client-manifest.txt
 ├── build.bat                    # Compiles and packages fat JARs (Windows)
-├── build.sh                     # Compiles and packages fat JARs (Linux/Mac)
-├── StartServer.bat / .sh        # Starts the server
-├── StartClient.bat / .sh        # Starts the client
+├── QuizServer.bat               # Starts the server
+├── QuizClient.bat               # Starts the client
 ├── RunAll.bat                   # Builds + starts everything in one click
 └── HOW_TO_PLAY.txt              # Setup and play guide for all users
 ```
@@ -208,6 +207,7 @@ Or pass it as an argument at runtime:
 ```bash
 java -jar QuizServer.jar 3
 ```
+
 ## Division of Work
 
 Ayush Mishra — Database & Data Layer
@@ -217,4 +217,4 @@ Piyush Rawat— Server & Networking
 Files: QuizServer.java, ClientHandler.java
 
 vrishali sahay — Client & GUI
-Files : ClientConnection.java, LoginUI.java, QuizUI.java, ResultUI.java
+Files: ClientConnection.java, LoginUI.java, QuizUI.java, ResultUI.java
