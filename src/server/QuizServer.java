@@ -20,7 +20,7 @@ public class QuizServer {
     public static final int PORT = 5000;
 
     /** How many players must join before the quiz begins. */
-    public static int MIN_PLAYERS = 2;
+    public static int MIN_PLAYERS = 3;
 
     /**
      * CountDownLatch shared by all ClientHandlers.
